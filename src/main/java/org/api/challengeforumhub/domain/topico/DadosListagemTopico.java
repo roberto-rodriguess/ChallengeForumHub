@@ -7,9 +7,10 @@ public record DadosListagemTopico(
         String titulo,
         String mensagem,
         String curso,
-        LocalDateTime dataCriacao) {
+        LocalDateTime dataCriacao,
+        Estado estado) {
 
     public DadosListagemTopico(Topico topico) {
-        this(topico.getId(), topico.getTitulo(), topico.getMensagem(), topico.getCurso(), topico.getDataDeCriacao());
+        this(topico.getId(), topico.getTitulo(), topico.getMensagem(), topico.getCurso(), topico.getDataDeCriacao(), topico.getEstado());
     }
 }

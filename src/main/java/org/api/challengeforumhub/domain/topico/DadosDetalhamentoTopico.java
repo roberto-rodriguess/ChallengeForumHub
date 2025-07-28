@@ -8,9 +8,10 @@ public record DadosDetalhamentoTopico(
         String mensagem,
         String autor,
         String curso,
-        LocalDateTime dataCriacao) {
+        LocalDateTime dataCriacao,
+        Estado estado) {
 
     public DadosDetalhamentoTopico(Topico topico) {
-        this(topico.getId(), topico.getTitulo(), topico.getMensagem(), topico.getAutor(), topico.getCurso(), topico.getDataDeCriacao());
+        this(topico.getId(), topico.getTitulo(), topico.getMensagem(), topico.getAutor(), topico.getCurso(), topico.getDataDeCriacao(), topico.getEstado());
     }
 }
