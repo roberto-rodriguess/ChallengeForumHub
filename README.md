@@ -4,6 +4,16 @@ O Challenge Forum Hub é uma **API REST** desenvolvida como parte de um desafio 
 
 ---
 
+## 🏆 Conclusão do Desafio
+
+Badge recebida pela conclusão do desafio.
+
+<div align="center">
+    <img width="200" height="200" alt="Badge-Spring" src="https://github.com/user-attachments/assets/0583127d-c4e6-4f6b-8ddd-088e1738ed5a"]/>
+</div>
+
+---
+
 ## 🎯 Objetivo do Projeto
 
 O principal objetivo do Challenge Forum Hub é prover uma API para o gerenciamento de tópicos de fórum, contendo funcionalidades essenciais de um CRUD (Create, Read, Update, Delete) e um sistema de autenticação e autorização.
